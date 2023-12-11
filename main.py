@@ -1,4 +1,5 @@
 import os
+import shutil
 
 
 # function to scan dir and create log of its files
@@ -26,4 +27,12 @@ def scan_dir():
         print(f"Error: {e}")
 
 
-scan_dir()
+# scan_dir()
+
+
+def copy_dir():
+    target_dir = input("Input the obsidian directory\n:Enter:")
+    dir_destination = os.getcwd()
+
+
+copy_dir()
